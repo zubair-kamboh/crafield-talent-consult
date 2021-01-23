@@ -646,6 +646,39 @@ footer li a {
   .our-mission p {
     font-size: 1rem !important;
   }
+  .our-process .dia,
+  .our-process .imp,
+  .our-process .after-actn {
+    width: 100%;
+    margin: 70px 0px;
+    text-align: center;
+  }
+  .our-process .dia p,
+  .our-process .imp p,
+  .our-process .after-actn p {
+    color: #6a6e72;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    font-size: 30px;
+    padding: 8px 50px;
+  }
+  .our-process .v-d,
+  .our-process .live-opr {
+    width: 100% !important;
+    margin: 70px 0px 0px auto;
+  }
+  .our-process .v-d p,
+  .our-process .live-opr p {
+    color: #6a6e72;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    font-size: 30px;
+    padding: 8px 50px;
+  }
+  .our-process .row {
+    width: 100% !important;
+    text-align: center;
+  }
   .our-process h1,
   .our-process p {
     text-align: center !important;
@@ -671,20 +704,6 @@ footer li a {
   .our-process .c5 p {
     text-align: left !important;
     font-size: 12px !important;
-  }
-  .our-process .c1 {
-    top: 40%;
-  }
-  .our-process .c2 {
-    top: 25%;
-  }
-  .our-process .c3 {
-    top: 52%;
-    left: 20%;
-  }
-  .our-process .c5 {
-    bottom: 12%;
-    left: 20%;
   }
   .our-process .live-op .col-md-5 {
     position: static !important;

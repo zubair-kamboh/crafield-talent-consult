@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Neuville';
+    src: local('Neuville Regular'), local('Neuville-Regular'),
+        url('Neuville.woff2') format('woff2'),
+        url('Neuville.woff') format('woff'),
+        url('Neuville.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

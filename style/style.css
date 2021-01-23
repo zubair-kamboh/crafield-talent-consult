@@ -1,0 +1,741 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #9bcb3c;
+  font-family: "Neuville";
+}
+
+body {
+  font-family: 'flinkregular' !important;
+  font-weight: 400;
+  box-shadow: none !important;
+  background-color: #eee !important;
+  color: #6a6e72 !important;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+main {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  background-attachment: fixed;
+}
+
+nav {
+  height: 180px;
+}
+
+nav .logo img {
+  width: 270px;
+  height: auto;
+  padding: 10px;
+}
+
+nav .navbar-nav li {
+  padding: 20px;
+}
+
+nav .navbar-nav li a {
+  font-family: 'Neuville' !important;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white !important;
+  transition: 0.4s ease all;
+}
+
+nav .navbar-nav li a:hover {
+  color: #9bcb3c !important;
+}
+
+.hero {
+  height: calc(100vh - 180px);
+  position: relative;
+}
+
+.hero h1 {
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  position: absolute;
+  top: 10%;
+  left: 30px;
+  color: #fff;
+  width: 62%;
+  font-size: 60px;
+}
+
+.partners {
+  background: white;
+}
+
+.partnership {
+  font-family: "flinkregular";
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.partnership p {
+  font-size: 25px;
+  line-height: 1.2;
+  color: 6a6e72;
+}
+
+.our-mission {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/girl-with-laptop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  background-attachment: fixed;
+}
+
+.our-mission .our-mission-div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.our-mission .our-mission-div h1 {
+  margin-bottom: 35px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  font-size: 80px;
+}
+
+.our-mission .our-mission-div p {
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.what-we-offer {
+  height: 100vh;
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+
+.what-we-offer .what-we-offer-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.what-we-offer .what-we-offer-div .left-part {
+  margin: 70px 30px;
+  max-width: 20%;
+}
+
+.what-we-offer .what-we-offer-div .left-part h1 {
+  margin-bottom: 22px;
+  line-height: 1.2;
+  color: #9bcb3c;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  font-size: 40px;
+}
+
+.what-we-offer .what-we-offer-div .left-part p {
+  color: #6a6e72;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.what-we-offer .what-we-offer-div figure {
+  height: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, 0%);
+  z-index: 0;
+}
+
+.what-we-offer .what-we-offer-div figure img {
+  height: 100%;
+}
+
+.what-we-offer .what-we-offer-div .strategic-hr-support {
+  margin: 200px 30px;
+  padding: 40px;
+  max-width: 50%;
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.what-we-offer .what-we-offer-div .strategic-hr-support h3 {
+  color: #6a6e72;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.what-we-offer .hr-operation-support {
+  position: absolute;
+  bottom: 70px;
+  left: 250px;
+  cursor: pointer;
+}
+
+.what-we-offer .hr-operation-support h3 {
+  color: #6a6e72;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.what-we-offer .hover-cards {
+  color: 6a6e72;
+  position: absolute;
+  top: 20%;
+  right: 34%;
+  display: none;
+  z-index: 10;
+}
+
+.what-we-offer .hover-cards h5 {
+  color: #5a2319;
+}
+
+.what-we-offer .hover-card-2 {
+  color: 6a6e72;
+  position: absolute;
+  top: 12%;
+  left: 25%;
+  z-index: 300;
+  display: none;
+}
+
+.what-we-offer .hover-card-2 h5 {
+  color: #5a2319;
+}
+
+.show {
+  display: block !important;
+}
+
+.our-process {
+  position: relative;
+}
+
+.our-process .process {
+  width: 50%;
+  margin-left: auto;
+}
+
+.our-process .process .process-div {
+  margin-top: 70px;
+}
+
+.our-process .process .process-div h1 {
+  color: #9bcb3c;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Neuville";
+  margin-bottom: 15px;
+}
+
+.our-process .process .process-div p {
+  color: #6a6e72;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  font-size: 1.3rem;
+  line-height: 1.1;
+  margin-top: 30px;
+}
+
+.our-process .dia,
+.our-process .imp,
+.our-process .after-actn {
+  width: 45%;
+  margin: 70px 0px;
+}
+
+.our-process .dia p,
+.our-process .imp p,
+.our-process .after-actn p {
+  color: #6a6e72;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  font-size: 30px;
+  padding: 8px 50px;
+  text-align: end;
+}
+
+.our-process .v-d,
+.our-process .live-opr {
+  width: 45%;
+  margin: 70px 0px 0px auto;
+  text-align: start;
+}
+
+.our-process .v-d p,
+.our-process .live-opr p {
+  color: #6a6e72;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  font-size: 30px;
+  padding: 8px 50px;
+}
+
+.our-process .pipe2 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.our-process .pipe2-copy {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.our-process .five-step-process-cards {
+  z-index: 10;
+}
+
+.our-process .five-step-process-cards h5,
+.our-process .five-step-process-cards span {
+  color: #9bcb3c;
+}
+
+.our-process .diagnostics-card {
+  position: absolute;
+  top: 25%;
+  left: 1%;
+  display: none;
+}
+
+.our-process .validation-design-card {
+  position: absolute;
+  top: 32%;
+  right: 1%;
+  display: none;
+}
+
+.our-process .implementation-card {
+  position: absolute;
+  bottom: 33%;
+  left: 3%;
+  display: none;
+}
+
+.our-process .live-operation-card {
+  position: absolute;
+  bottom: 20%;
+  display: none;
+  right: 1%;
+}
+
+.our-process .after-action-review-card {
+  position: absolute;
+  bottom: 6%;
+  left: 3%;
+  display: none;
+}
+
+.our-service-model {
+  background: white;
+  position: relative;
+}
+
+.our-service-model h1 {
+  color: #9bcb3c;
+  padding: 50px;
+}
+
+.our-service-model h3 {
+  text-align: center;
+  color: #9bcb3c;
+  margin: 60px 0px;
+}
+
+.our-service-model .organization h4,
+.our-service-model .jobs h4 {
+  color: #9bcb3c;
+}
+
+.our-service-model .arrows {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-55%, -50%);
+  width: 550px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #fffffff1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 55px 80px 25px 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.slider .active,
+.slider .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: #9bcb3c;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.who-we-are .heading {
+  margin: 50px;
+}
+
+.who-we-are .heading h1 {
+  color: #9bcb3c;
+  padding: 10px;
+  font-size: 2.5rem;
+  margin: 30px 0px 0px 0px;
+}
+
+.who-we-are .heading p {
+  color: #9bcb3c;
+  padding: 10px 0px 10px 10px;
+  font-size: 1.2rem;
+}
+
+.who-we-work-with .who-we-work-with-row {
+  padding: 10px;
+  margin: 30px 0px;
+  display: flex;
+}
+
+.who-we-work-with .who-we-work-with-row h1 {
+  color: #9bcb3c;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.who-we-work-with .who-we-work-with-row p {
+  font-size: 1.3rem;
+}
+
+footer li a {
+  color: white !important;
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  header .logo-img {
+    width: 220px !important;
+    height: auto;
+  }
+  header .navbar-collapse {
+    background: white;
+    z-index: 10;
+  }
+  header .nav-item .nav-link {
+    color: black !important;
+  }
+  header .navbar-toggler {
+    border: 2px solid white;
+  }
+  header nav .navbar-nav li a {
+    color: black;
+  }
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .partners {
+    position: relative;
+  }
+  .partners p {
+    font-size: 1rem;
+  }
+  .what-we-offer-div {
+    max-width: 100%;
+    flex-direction: column;
+    text-align: center;
+    display: block !important;
+  }
+  .what-we-offer-div figure {
+    display: none;
+  }
+  .what-we-offer-div .strategic-hr-support {
+    margin: 0px !important;
+    padding: 40px;
+  }
+  .hr-operation-support {
+    top: 70% !important;
+    left: 50% !important;
+    transform: translate(-50%, -60%);
+    width: 100%;
+    text-align: center;
+  }
+  .hover-cards {
+    top: 30% !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    line-height: 1;
+  }
+  .hover-cards h5 {
+    font-size: 14px;
+  }
+  .hover-cards p {
+    font-size: 12px;
+  }
+  .hover-card-2 {
+    position: absolute;
+    bottom: 5% !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    width: 35rem !important;
+    line-height: 1;
+    display: none;
+  }
+  .hover-card-2 h5 {
+    font-size: 14px;
+  }
+  .hover-card-2 p {
+    font-size: 12px;
+  }
+  .what-we-offer-div .left-part {
+    max-width: 100% !important;
+    margin: 70px 0px 0px 0px !important;
+    display: block;
+  }
+  .what-we-offer .what-we-offer-div .strategic-hr-support {
+    max-width: 100% !important;
+  }
+  .our-process figure {
+    display: none;
+  }
+  .our-process .process-div h1 {
+    font-size: 2rem;
+  }
+  .our-process .process-div p {
+    font-size: 1.1rem;
+  }
+  .our-process .process-div .validation-design {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0px;
+  }
+  .our-process p {
+    font-size: 1.4rem !important;
+  }
+  .our-service-model .bootom-div {
+    margin: 180px 0px 0px 0px;
+    justify-content: space-between;
+  }
+  .our-service-model .arrows {
+    width: 330px;
+    top: 45%;
+  }
+  .who-we-are .heading {
+    width: 100% !important;
+    text-align: center;
+  }
+  .who-we-are .heading h1 br {
+    display: none;
+  }
+  .who-we-are .slider {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  header .logo-img {
+    width: 150px !important;
+    height: auto;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .partners {
+    position: relative;
+  }
+  .partners p {
+    font-size: 14px;
+  }
+  .our-mission h1 {
+    font-size: 3rem !important;
+  }
+  .our-mission p {
+    font-size: 1rem !important;
+  }
+  .our-process h1,
+  .our-process p {
+    text-align: center !important;
+  }
+  .our-process .row {
+    flex-direction: column-reverse;
+    padding: 0px !important;
+  }
+  .our-process .card {
+    width: 20rem !important;
+  }
+  .our-process .c1 h5,
+  .our-process .c2 h5,
+  .our-process .c3 h5,
+  .our-process .c4 h5,
+  .our-process .c5 h5 {
+    font-size: 14px !important;
+  }
+  .our-process .c1 p,
+  .our-process .c2 p,
+  .our-process .c3 p,
+  .our-process .c4 p,
+  .our-process .c5 p {
+    text-align: left !important;
+    font-size: 12px !important;
+  }
+  .our-process .c1 {
+    top: 40%;
+  }
+  .our-process .c2 {
+    top: 25%;
+  }
+  .our-process .c3 {
+    top: 52%;
+    left: 20%;
+  }
+  .our-process .c5 {
+    bottom: 12%;
+    left: 20%;
+  }
+  .our-process .live-op .col-md-5 {
+    position: static !important;
+  }
+  .our-service-model {
+    text-align: center;
+  }
+  .our-service-model img {
+    width: 300px !important;
+  }
+  .our-service-model .arrows {
+    display: none;
+  }
+  .our-service-model .bootom-div h4 {
+    font-size: 18px;
+  }
+  .our-service-model .bootom-div p {
+    font-size: 16px;
+  }
+  .who-we-are .heading {
+    margin: 0px;
+  }
+  .who-we-are .heading h1 {
+    font-size: 1.5rem;
+  }
+  .who-we-are .heading p {
+    font-size: 20px;
+  }
+  .who-we-are .slider q {
+    font-size: 16px !important;
+  }
+  .who-we-are .slider .author {
+    font-size: 1rem !important;
+  }
+  .who-we-work-with {
+    text-align: center;
+  }
+  .who-we-work-with br {
+    display: none;
+  }
+  .who-we-work-with h1 {
+    font-size: 1.7rem !important;
+  }
+  .who-we-work-with p {
+    font-size: 1rem !important;
+  }
+  .who-we-work-with img {
+    width: 300px;
+  }
+  footer .footer-logo-container {
+    max-width: 70% !important;
+    margin: auto;
+  }
+}
